@@ -4,7 +4,7 @@ const projects =[
         title:"Countries",
         img:"/images/countries.jpg",
         category:"SPA",
-        keyword:["Web", "React",],
+        keyword:["SPA", "React", "Redux", "Node.js", "Express","Postgresql", "CSS module", "Web"],
         liveUrl:"",
     },
     {
@@ -12,7 +12,7 @@ const projects =[
         title:"MedConnect App",
         img:"/images/medicina.jpg",
         category:"Web App",
-        keyword:["Web", "Next.js", "API REST"],
+        keyword:["Web", "Next.js 13", "Tailwind", "Redux toolkit", "Node.js", "Express", "Postgresql", "API REST"],
         liveUrl:"",
     }
 ]

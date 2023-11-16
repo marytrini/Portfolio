@@ -4,6 +4,7 @@ import 'remixicon/fonts/remixicon.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Head from 'next/head'
+import Providers from './components/darkMode/Providers'
 
 const navLinks=[
   {
@@ -52,7 +53,7 @@ export default function RootLayout({ children }) {
       </Head>
       <main className={`${pop.variable} font-pop w-full h-full`}>
       <Header navLinks={navLinks}/>
-      <div >{children}</div>
+      <Providers >{children}</Providers>
       <Footer navLinks={navLinks} socialLinks={socialLinks}/>
       </main>
     </html>

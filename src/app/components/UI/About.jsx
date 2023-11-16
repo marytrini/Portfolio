@@ -9,35 +9,35 @@ import img04 from '../../../../public/images/img04.png'
 
 
 function About() {
-  return (<section id="about">
+  return (<section id="about" className='mb-20'>
     <div> {/*__container_div__ */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'> {/*__row_div__ */}
-            <div className="lg:col-span-1"> {/*__col_div__text__ */}
+        <div className='grid grid-cols-1 2xl:grid-cols-2 gap-5 sm:flex flex-wrap'> {/*__row_div__ */}
+            <div className="2xl:col-span-1 ml-8"> {/*__col_div__text__ */}
                 <SectionSubtitle subtitle='About me'/>
                 <h3 className='mt-5 mb-[15px] ml-5 font-semibold text-xl'>I&apos;m here</h3>
                 <h3 className='mb-4 ml-5 font-semibold text-xl'>to help your next project</h3>
                 <p className='ml-2'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem reprehenderit ab numquam labore blanditiis? Assumenda ab labore eveniet perspiciatis quae! A rerum aut necessitatibus provident voluptas atque earum, quibusdam eos omnis nihil illum quo voluptatibus aliquid porro nisi recusandae quaerat beatae, minus debitis repellat vero, voluptatum veniam. Accusamus facere, iste neque cumque quam quas ipsam ipsum, officia, vitae pariatur enim.
+                As a recent web developer with an engineering background, I&apos;m dedicated to continuous personal and professional growth. I thrive on learning, consistently honing my skills. A collaborative team player, I embrace challenges with a commitment to delivering exceptional results.
                 </p>
 
                 <div className='flex items-center gap-5 ml-2'>
                     <div>
-                        <h6 className='flex items-center gap-2 mt-3 flex-wrap mb-0'>
-                            <span><i className="ri-checkbox-circle-line text-dark-title"></i></span>
+                        <h6 className='2xl:flex items-center gap-2 mt-3 flex-wrap mb-0 sm:block'>
+                            <span><i className="ri-checkbox-circle-line text-dark-title sm:mr-1.5"></i></span>
                             Problem Solving
                         </h6>
-                        <h6 className='flex items-center gap-2 mt-3 flex-wrap mb-0'>
-                            <span><i className="ri-checkbox-circle-line text-dark-title"></i></span>
+                        <h6 className='2xl:flex items-center gap-2 mt-3 flex-wrap mb-0 sm:block'>
+                            <span><i className="ri-checkbox-circle-line text-dark-title sm:mr-1.5"></i></span>
                             Investigation
                         </h6>
                     </div>
                     <div>
-                        <h6 className='flex items-center gap-2 mt-3 flex-wrap mb-0'>
-                            <span><i className="ri-checkbox-circle-line text-dark-title"></i></span>
+                        <h6 className='2xl:flex items-center gap-2 mt-3 flex-wrap mb-0 sm:block'>
+                            <span><i className="ri-checkbox-circle-line text-dark-title sm:mr-1.5"></i></span>
                             Creative Ideas
                         </h6>
-                        <h6 className='flex items-center gap-2 mt-3 flex-wrap mb-0'>
-                            <span><i className="ri-checkbox-circle-line text-dark-title"></i></span>
+                        <h6 className='flex items-center gap-2 mt-3 flex-wrap mb-0 sm:block'>
+                            <span><i className="ri-checkbox-circle-line text-dark-title sm:mr-1.5"></i></span>
                             High Quality
                         </h6>
                     </div>

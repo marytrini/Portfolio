@@ -6,11 +6,11 @@ const ProjectsItem = (props) => {
 
     const {title, img, liveUrl, keyword} = props.item
   return (
-    <div className='bg-dark-features w-3/4 group pt-[30px] pr-5 pb-5 pl-5 rounded-xl mb-[30px] hover:mt-5'>
-        <div className='bg-transparent text-base'>
-            <h6 className='mb-5 bg-transparent text-dark-title font-semibold text-xl'>{title}</h6>
+    <div className='bg-dark-features 2xl:w-3/4 group pt-[30px] pr-5 pb-5 pl-5 rounded-xl mb-[30px] hover:mt-5 sm:w-fit'>
+            <h6 className='mb-5 bg-transparent text-dark-title font-semibold text-xl font-merienda'>{title}</h6>
+        <div className='flex flex-wrap gap-2 bg-transparent text-base'>
             {keyword.map((item,index)=>(
-                <span className='pt-[10px] pb-[10px] pr-[5px] pl-[5px] bg-slate-600 text-xs' key={index}>{item}</span>
+                <span className='pt-[10px] pb-[10px] pr-[5px] pl-[5px] bg-slate-600 text-xs mx-1 my-1 rounded-lg' key={index}>{item}</span>
             ))}
         </div>
         <div className='flex items-center justify-center mt-[30px] bg-transparent'>

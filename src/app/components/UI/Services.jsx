@@ -4,13 +4,13 @@ import { SectionSubtitle } from './SectionSubtitle'
 
 function Services() {
   return (
-    <section id="services" className="py-8">
+    <section id="services" className="py-8 mb-20">
   <div className="container mx-auto">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-      <div className="lg:col-span-1">
-        <div className="grid grid-cols-2 items-center gap-4">
+    <div className="2xl:grid grid-cols-2 gap-5 sm:flex flex-wrap-reverse items-center">
+      <div className="2xl:col-span-1">
+        <div className="2xl:grid grid-cols-2 items-center gap-4 sm:flex">
           <div className="mb-3">
-            <ServicesItem title="App Development" icon="ri-apps-line" />
+            <ServicesItem title="Web Design" icon="ri-apps-line" className='sm:' />
             <ServicesItem title="Web Development" icon="ri-computer-line" />
           </div>
 
@@ -21,17 +21,13 @@ function Services() {
         </div>
       </div>
 
-      <div className="lg:col-span-1">
-        <div className="service__title">
+      <div className="2xl:col-span-1 sm:mb-8">
+        <div className='sm:ml-8'>
           <SectionSubtitle subtitle="What I do" />
           <h3 className="mb-0 mt-4 font-semibold text-xl">Better Design,</h3>
           <h3 className="mb-4 font-semibold text-lg">Better Experience</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-            culpa nobis corporis officiis, numquam cupiditate, enim expedita
-            eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-            Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-            Veniam, non distinctio dolorem rerum laboriosam deleniti.
+          <p >
+          I bring full-stack expertise, excelling in React, Redux, JavaScript, Node.js, Express, PostgreSQL, Sequelize, HTML5, and CSS3, with additional skills in Next.js and Tailwind CSS, as well as porficiency using design tools such as Illustrator and Photoshop. My commitment is to deliver captivating and innovative technological solutions for clients, ensuring both attractiveness and creativity in every project.
           </p>
         </div>
       </div>

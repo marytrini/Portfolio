@@ -15,12 +15,12 @@ const Contact = () => {
   return (
 <section id="contact" className='pb-[60px]'>
     <div>{/*container*/}
-        <div>{/*Row*/}
-            <div>{/*Col*/}
+        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-5 sm:flex flex-wrap">{/*Row*/}
+            <div className="2xl:col-span-1 ">{/*Col*/}
                 <SectionSubtitle subtitle='Contact me'/>
                 <h3 className='my-10 ml-2'>Contact  Me</h3>
                 <p className='ml-2'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sint earum dolores molestiae, maxime eveniet culpa explicabo alias odio dolorem nihil perferendis, sed corrupti quisquam!
+                Feel free to reach out for collaboration or projects—I&apos;m open to exciting opportunities. Let&apos;s connect and create something amazing together.
                 </p>
                 <ul className='pl-0 my-10 ml-2'>
                     <li className='flex items-center mb-[15px] gap-4'>
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div className='ml-[15px]'>{/*Col*/}
+            <div className='ml-[15px] 2xl:col-span-1'>{/*Col*/}
                 <Form/>
             </div>
         </div>

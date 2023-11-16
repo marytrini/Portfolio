@@ -17,17 +17,7 @@ function Footer({navLinks}) {
     <footer>
       <div className='grid-cols-3'>
         <NavBar navLinks={navLinks}/>
-        <div className='flex items-center gap-x-11 mb-5 ml-5 justify-start'>
-          <Link href={socialLinks.linkedin} className='text-rose-400  hover:text-teal-300'>
-            <i className='ri-linkedin-fill'></i>
-          </Link>
-          <Link href={socialLinks.github}  className='text-rose-400  hover:text-teal-300'>
-            <i className='ri-github-fill'></i>
-          </Link>
-          <Link href={socialLinks.twitter}  className='text-rose-400  hover:text-teal-300'>
-            <i className='ri-twitter-x-fill'></i>
-          </Link>
-        </div>
+        
         <div>
           <h6 className='text-base text-right'>
           Created by <span className='font-merienda text-dark-title'>María</span>
