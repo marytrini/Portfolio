@@ -1,11 +1,15 @@
 'use client'
-import { useTheme } from 'next-themes';
-import React, {useState, useEffect} from 'react'
+import useThemeSwitcher from './useThemeSwitcher';
 import {FaMoon, FaSun} from 'react-icons/fa'
+import { useState, useEffect } from 'react';
 
 const DarkModeButton = () => {
-    const [mounted, setMounted] = useState(false);
-    const {theme, setTheme} = useTheme();
+  const [mounted,setMounted]   = useState();
+  const [mode, setMode] = useThemeSwitcher();
+   
+  const toggleTheme = () => {
+    setMode(mode === 'dark' ? 'light' : 'dark');
+  }
 
     useEffect(() => {
         setMounted(true)
@@ -14,10 +18,10 @@ const DarkModeButton = () => {
     if(!mounted){
         return null
     }
-
+console.log(mode);
   return (
-    <button className='absolute right-4 bottom-4' onClick={e => theme === 'dark' ? setTheme('light') : setTheme('dark')}>
-        {theme === 'dark' ? <FaMoon/> : <FaSun/>}
+    <button className='transition-all duration-100' onClick={toggleTheme}>
+        {mounted &&  (mode === 'dark' ? <FaMoon/> : <FaSun/>)}
     </button>
   )
 }

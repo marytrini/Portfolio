@@ -26,7 +26,7 @@ const Contact = () => {
                     <li className='flex items-center mb-[15px] gap-4'>
                         <span>
                             <Link href={socialLinks.maps}>    
-                        <i className="ri-map-pin-2-line text-xl p-[5px] rounded-md bg-dark-features text-teal-400"></i>
+                        <i className="ri-map-pin-2-line text-xl p-[5px] rounded-md dark:bg-dark-features bg-light-secondary_feat dark:text-teal-400 text-light-title"></i>
                             </Link>
                         </span>
                         <p className='mb-0'>Ciudad Bolívar - Venezuela</p>
@@ -34,19 +34,19 @@ const Contact = () => {
                     <li className='flex items-center mb-[15px] gap-4'>
                         <span>
                        <a href="mailto:mariatrinidadsalazarr@gmail.com">
-                       <i className="ri-mail-line text-xl p-[5px] rounded-md bg-dark-features text-teal-400"></i>
+                       <i className="ri-mail-line text-xl p-[5px] rounded-md dark:bg-dark-features bg-light-secondary_feat dark:text-teal-400 text-light-title"></i>
                        </a>
                         </span>
                         <p className='mb-0'>mariatrinidadsalazarr@gmail.com</p>
                     </li>
                     <li className='flex items-center mb-[15px] gap-4'>
                         <span>
-                        <i className="ri-phone-fill text-xl p-[5px] rounded-md bg-dark-features text-teal-400"></i>
+                        <i className="ri-phone-fill text-xl p-[5px] rounded-md dark:bg-dark-features bg-light-secondary_feat dark:text-teal-400 text-light-title"></i>
                         </span>
                         <p className='mb-0'>+584148013873</p>
                     </li>
                 </ul>
-                <div className='flex items-center gap-x-11 mb-5 ml-5 mt-[30px] text-teal-400 text-xl cursor-pointer justify-start'>{/*social network*/}
+                <div className='flex items-center gap-x-11 mb-5 ml-5 mt-[30px] dark:text-teal-400 text-light-title text-xl cursor-pointer justify-start'>{/*social network*/}
                 <Link href={socialLinks.linkedin}>
                 <i className="ri-linkedin-fill"></i>
                 </Link>

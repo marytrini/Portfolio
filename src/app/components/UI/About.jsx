@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import {SectionSubtitle} from './SectionSubtitle'
 import Image from 'next/image'
-import img05 from '../../../../public/images/img05.png'
-import img06 from '../../../../public/images/img06.png'
-import img03 from '../../../../public/images/img03.png'
-import img04 from '../../../../public/images/img04.png'
+import image05 from '../../../../public/images/image05.png'
+import image01 from '../../../../public/images/image01.png'
+import image02 from '../../../../public/images/image02.png'
+import image04 from '../../../../public/images/image04.jpg'
 
 
 function About() {
@@ -43,27 +43,27 @@ function About() {
                     </div>
                 </div>
                 <div className='mt-5 ml-2'>
-                    <button className='primary_btn border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 hover:bg-purple-950 hover:text-teal-400'><Link href='#projects'>My Projects</Link></button>
+                    <button className='border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 dark:hover:bg-purple-950 hover:bg-light-secondary_feat dark:hover:text-teal-400 hover:text-purple-950'><Link href='#projects'>My Projects</Link></button>
                    
-                   <button className='secondary_btn ml-4 underline decoration-dark-title text-dark-title font-semibold hover:text-teal-400 hover:decoration-teal-400'><Link href='public\cv\CV-english-Mary.pdf' download>Dowload CV</Link></button>
+                   <button className='ml-4 underline decoration-dark-title text-dark-title font-semibold dark:hover:text-teal-400 hover:text-purple-950 dark:hover:decoration-teal-400 hover:decoration-purple-950'><Link href='public\cv\CV-english-Mary.pdf' download>Dowload CV</Link></button>
                 </div>
             </div>
             <div className="lg:col-span-1"> {/*__col_div__images__ */}
                 <div className='flex gap-4 justify-center '>
                     <div className='flex flex-col mb-3'>
-                        <div className='p-[10px] mb-5 rounded-md bg-dark-features w-[200px]'>
-                            <Image src={img06} alt='about-image' className='w-full rounded-md'/>
+                        <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
+                            <Image src={image01} alt='about-image' className='w-full rounded-md'/>
                         </div>
-                        <div className='p-[10px] mb-5 rounded-md bg-dark-features w-[200px]'>
-                            <Image src={img04} alt='about-image' className='w-full rounded-md'/>
+                        <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
+                            <Image src={image04} alt='about-image' className='w-full rounded-md'/>
                         </div>
                     </div>
                     <div className='flex flex-col mb-3'>
-                        <div className='p-[10px] mb-5 rounded-md bg-dark-features w-[200px]'>
-                            <Image src={img03} alt='about-image' className='w-full rounded-md'/>
+                        <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
+                            <Image src={image02} alt='about-image' className='w-full rounded-md'/>
                         </div>
-                        <div className='p-[10px] mb-5 rounded-md bg-dark-features w-[200px]'>
-                            <Image src={img05} alt='about-image' className='w-full rounded-md'/>
+                        <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
+                            <Image src={image05} alt='about-image' className='w-full rounded-md'/>
                         </div>
                     </div>
                 </div>

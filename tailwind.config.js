@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -11,14 +12,15 @@ module.exports = {
       },
       colors:{
         dark:{
-          dark_bg:'#0a0908',
+          bg:'#0a0908',
           features:'#22333b',
           text:'#f2f4f3',
           title:'#f43f5e'
         },
         light:{
-          light_bg:'#f2f4f3',
-          features: '#ffeedd',
+          bg:'#f2f4f3',
+          features: '#e6e8e6',
+          secondary_feat: '#FFD4D4',
           text:'#0a0908',
           title:'#f43f5e'
         }

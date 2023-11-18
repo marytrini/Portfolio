@@ -3,6 +3,6 @@ import { ThemeProvider } from "next-themes"
 
 export default function Providers({children}){
     return(
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider attribute="class">{children}</ThemeProvider>
     )
 }

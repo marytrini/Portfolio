@@ -4,7 +4,7 @@ import { SectionSubtitle } from './SectionSubtitle'
 
 function Services() {
   return (
-    <section id="services" className="py-8 mb-20">
+    <section id="services" className="py-8 mb-20 sm:max-h-screen">
   <div className="container mx-auto">
     <div className="2xl:grid grid-cols-2 gap-5 sm:flex flex-wrap-reverse items-center">
       <div className="2xl:col-span-1">

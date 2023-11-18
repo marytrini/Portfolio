@@ -1,17 +1,17 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
+import DarkModeButton from '../darkMode/DarkMode';
 
 function Header({ navLinks }) {
  
-
-  return (
+    return (
     <header
-      className="w-full h-4/5 leading-relaxed"
+      className="w-full max-h-screen leading-relaxed"
     >
-      <div className='flex w-full h-full items-center justify-around mt-8 mb-9'>
+      <div className='flex w-full h-fit items-center justify-around mt-8 mb-1'>
         {/*____________nav_logo___________*/}
         <div className='flex'>
-          <h1 className='font-merienda lg:text-6xl sm:text-4xl 2xl:text-6xl text-dark-text'>
+          <h1 className='font-merienda lg:text-6xl sm:text-4xl 2xl:text-6xl'>
             <span className='text-dark-title'>M</span>aría
           </h1>
         </div>
@@ -22,6 +22,7 @@ function Header({ navLinks }) {
             | <i className='ri-phone-line'></i> +584148013873
           </p>
         </div>
+        <DarkModeButton/>
       </div>
     </header>
   );

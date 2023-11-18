@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import NavBar from '../NavBar/NavBar';
 
 const socialLinks = {
@@ -25,7 +24,7 @@ function Footer({navLinks}) {
         </div>
         {/*______________footer_bottom__________________ */}
         <div>
-          <p className='text-center text-base pt-5 border-t border-solid '>&copy; Copyright {year} - Developed by María Salazar. All rights reserved.</p>
+          <p className='text-center text-base pt-5 border-t border-solid dark:border-dark-text border-light-text'>&copy; Copyright {year} - Developed by María Salazar. All rights reserved.</p>
         </div>
       </div>
     </footer>
