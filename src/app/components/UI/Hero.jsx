@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import heroinImg from '../../../../public/images/heroinImg.png'
 
+
 function Hero() {
   return (
     <section className='pt-[60px] mb-20 sm:max-h-screen'>
@@ -11,13 +12,13 @@ function Hero() {
            <div className='pt-[50px] sm:mb-8'>
            <SectionSubtitle subtitle="-Hello,"/>
             <h2 className='mt-3 mb-3 text-2xl font-semibold'>I&apos;m María Salazar</h2>
-            <h5 className='mb-5 text-lg'>Full Stack Developer</h5>
+            <h5 className='mb-5 text-lg'>Aspiring Frontend Developer</h5>
             <p>
-                I am a Fullstack web developer specializing in React ecosystem for dynamic frontends. Commited to crafting superior user experiences with a blend of quality and usability.
+                I am a Fullstack web developer specializing in frontend with React ecosystem for dynamic frontends. Commited to crafting superior user experiences with a blend of quality and usability.
             </p>
             <div className='flex justify-center mt-5'>
                 <button className="border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 dark:hover:bg-purple-950 hover:bg-light-secondary_feat dark:hover:text-teal-400 hover:text-purple-950"><Link href='#'>Hire me!</Link></button>
-                <button className="ml-4 underline decoration-dark-title text-dark-title font-semibold dark:hover:text-teal-400 hover:text-purple-950 dark:hover:decoration-teal-400 hover:decoration-purple-950"><Link href='public\cv\CV-english-Mary.pdf' download>Download CV</Link></button>
+                <button className="ml-4 underline decoration-dark-title text-dark-title font-semibold dark:hover:text-teal-400 hover:text-purple-950 dark:hover:decoration-teal-400 hover:decoration-purple-950"><Link href='public\cv\cvEnglish.pdf' download>Download CV</Link></button>
         
             </div>
            </div>

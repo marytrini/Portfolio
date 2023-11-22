@@ -9,6 +9,8 @@ const socialLinks = {
     twitter: process.env.Twitter,
     maps: process.env.Maps,
   };
+
+  const  mailAddress = process.env.Mail;
   
 
 const Contact = () => {
@@ -33,7 +35,7 @@ const Contact = () => {
                     </li>
                     <li className='flex items-center mb-[15px] gap-4'>
                         <span>
-                       <a href="mailto:mariatrinidadsalazarr@gmail.com">
+                       <a href={`mail to: ${mailAddress}`}>
                        <i className="ri-mail-line text-xl p-[5px] rounded-md dark:bg-dark-features bg-light-secondary_feat dark:text-teal-400 text-light-title"></i>
                        </a>
                         </span>

@@ -1,11 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 
-const socialLinks = {
-  linkedin: process.env.Linkedin,
-  github: process.env.Github,
-  twitter: process.env.Twitter,
-};
 
 function Footer({navLinks}) {
 

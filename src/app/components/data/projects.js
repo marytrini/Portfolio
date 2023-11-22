@@ -5,7 +5,7 @@ const projects =[
         img:"/images/countries.jpg",
         category:"Web Design",
         keyword:["SPA", "React", "Redux", "Node.js", "Express","Postgresql", "CSS module", "Web"],
-        liveUrl:"",
+        liveUrl:"https://countries.rammerbot.com",
     },
     {
         id:"02",
@@ -13,7 +13,7 @@ const projects =[
         img:"/images/medicina.jpg",
         category:"Web Design",
         keyword:["Web", "Next.js 13", "Tailwind", "Redux toolkit", "Node.js", "Express", "Postgresql", "API REST"],
-        liveUrl:"",
+        liveUrl:"https://github.com/marytrini/MedConnect_Back",
     }
 ]
 
