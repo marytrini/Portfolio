@@ -21,7 +21,7 @@ const DarkModeButton = () => {
 console.log(mode);
   return (
     <button className='transition-all duration-100' onClick={toggleTheme}>
-        {mounted &&  (mode === 'dark' ? <FaMoon/> : <FaSun/>)}
+        {mounted &&  (mode === 'dark' ? <FaSun/> : <FaMoon/>)}
     </button>
   )
 }

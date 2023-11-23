@@ -8,6 +8,7 @@ const Projects = () => {
 
   const [filter, setFilter] = useState("Web Design");
   const [data, setData] = useState([]);
+  
   useEffect(()=>{
     const filteredData = projects.filter((item) => item.category === filter);
     setData(filteredData);

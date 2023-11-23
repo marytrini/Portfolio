@@ -2,7 +2,6 @@ import React from 'react'
 import { SectionSubtitle } from './SectionSubtitle'
 import Link from 'next/link'
 import Image from 'next/image'
-import heroinImg from '../../../../public/images/heroinImg.png'
 
 
 function Hero() {
@@ -24,7 +23,7 @@ function Hero() {
            </div>
             {/*__________________image__________________ */}
             <div className='text-end relative z-[9] sm:ml-5'>
-                <Image alt='hero-image' src={heroinImg} className='w-[400px] rounded-tl-[50px] rounded-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px] sm:w-fit'/>
+                <Image alt='hero-image' src='images/heroinImg.png' className='w-[400px] rounded-tl-[50px] rounded-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px] sm:w-fit' priority={true}/>
 
                 <div className='2xl:text-left w-[130px] pt-[10px] pr-5 absolute top-1/2 -left-16 rounded-md dark:bg-dark-features bg-light-secondary_feat opacity-70 z-10 -translate-y-2/4 self-end sm:ml-52'>
                     <h6 className='bg-transparent dark:text-dark-text text-light-text dark:font-medium font-semibold ml-3'>Skills</h6>

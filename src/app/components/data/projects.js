@@ -13,7 +13,7 @@ const projects =[
         img:"/images/medicina.jpg",
         category:"Web Design",
         keyword:["Web", "Next.js 13", "Tailwind", "Redux toolkit", "Node.js", "Express", "Postgresql", "API REST"],
-        liveUrl:"https://github.com/marytrini/MedConnect_Back",
+        liveUrl:"https://www.youtube.com/watch?v=8U1edoYLQVA&t=1s",
     }
 ]
 

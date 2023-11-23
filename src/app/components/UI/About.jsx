@@ -2,10 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import {SectionSubtitle} from './SectionSubtitle'
 import Image from 'next/image'
-import image05 from '../../../../public/images/image05.png'
-import image01 from '../../../../public/images/image01.png'
-import image02 from '../../../../public/images/image02.png'
-import image04 from '../../../../public/images/image04.jpg'
 
 
 function About() {
@@ -52,18 +48,18 @@ function About() {
                 <div className='flex gap-4 justify-center '>
                     <div className='flex flex-col mb-3'>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src={image01} alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image01.png' alt='about-image' className='w-full rounded-md'/>
                         </div>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src={image04} alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image04.jpg' alt='about-image' className='w-full rounded-md'/>
                         </div>
                     </div>
                     <div className='flex flex-col mb-3'>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src={image02} alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image02.png' alt='about-image' className='w-full rounded-md'/>
                         </div>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src={image05} alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image05.png' alt='about-image' className='w-full rounded-md'/>
                         </div>
                     </div>
                 </div>

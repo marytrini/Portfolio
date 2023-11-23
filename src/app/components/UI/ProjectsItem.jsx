@@ -14,7 +14,7 @@ const ProjectsItem = (props) => {
             ))}
         </div>
         <div className='flex items-center justify-center mt-[30px] bg-transparent'>
-            <Image alt='project-img' src={img} width="380" height="250" className='rounded-lg'/>
+            <Image alt='project-img' src={img} width="380" height="250" className='rounded-lg' />
         </div>
         <div className='bg-transparent mt-[30px]  hidden group-hover:block'>
             <button className="border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 hover:bg-purple-950 hover:text-teal-400 text-light-title dark:text-dark-text">
