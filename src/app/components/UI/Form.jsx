@@ -22,7 +22,7 @@ const Form = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('http://maria.back.rammerbot.com', {
+      const res = await fetch('https://maria.back.rammerbot/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(input),
