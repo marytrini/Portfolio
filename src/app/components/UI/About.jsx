@@ -48,18 +48,18 @@ function About() {
                 <div className='flex gap-4 justify-center '>
                     <div className='flex flex-col mb-3'>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src='/images/image01.png' alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image01.png' alt='about-image' width={100} height={100} className='w-full rounded-md'/>
                         </div>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src='/images/image04.jpg' alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image04.jpg' alt='about-image' width={100} height={100} className='w-full rounded-md'/>
                         </div>
                     </div>
                     <div className='flex flex-col mb-3'>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src='/images/image02.png' alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image02.png' alt='about-image' width={100} height={100} className='w-full rounded-md'/>
                         </div>
                         <div className='p-[10px] mb-5 rounded-md dark:bg-dark-features bg-light-title shadow-md shadow-slate-800 dark:shadow-sm dark:shadow-slate-400 w-[200px]'>
-                            <Image src='/images/image05.png' alt='about-image' className='w-full rounded-md'/>
+                            <Image src='/images/image05.png' alt='about-image' width={100} height={100} className='w-full rounded-md'/>
                         </div>
                     </div>
                 </div>

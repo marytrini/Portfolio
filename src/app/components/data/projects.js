@@ -10,7 +10,7 @@ const projects =[
     {
         id:"02",
         title:"MedConnect App",
-        img:"/images/medicina.jpg",
+        img:"/images/medConnect.jpg",
         category:"Web Design",
         keyword:["Web", "Next.js 13", "Tailwind", "Redux toolkit", "Node.js", "Express", "Postgresql", "API REST"],
         liveUrl:"https://www.youtube.com/watch?v=8U1edoYLQVA&t=1s",

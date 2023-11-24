@@ -2,6 +2,7 @@ import React from 'react'
 import { SectionSubtitle } from './SectionSubtitle'
 import Link from 'next/link'
 import Image from 'next/image'
+import FileDownloader from '../downloadPdf/FileDownloader'
 
 
 function Hero() {
@@ -17,13 +18,13 @@ function Hero() {
             </p>
             <div className='flex justify-center mt-5'>
                 <button className="border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 dark:hover:bg-purple-950 hover:bg-light-secondary_feat dark:hover:text-teal-400 hover:text-purple-950"><Link href='#'>Hire me!</Link></button>
-                <button className="ml-4 underline decoration-dark-title text-dark-title font-semibold dark:hover:text-teal-400 hover:text-purple-950 dark:hover:decoration-teal-400 hover:decoration-purple-950"><Link href='public\cv\cvEnglish.pdf' download>Download CV</Link></button>
+                <FileDownloader cvEnglish="cvEnglish.pdf"/>
         
             </div>
            </div>
             {/*__________________image__________________ */}
             <div className='text-end relative z-[9] sm:ml-5'>
-                <Image alt='hero-image' src='images/heroinImg.png' className='w-[400px] rounded-tl-[50px] rounded-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px] sm:w-fit' priority={true}/>
+                <Image alt='hero-image' src='/images/heroinImg.png' width={400} height={400} className='w-[400px] rounded-tl-[50px] rounded-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px] sm:w-fit' priority={true}/>
 
                 <div className='2xl:text-left w-[130px] pt-[10px] pr-5 absolute top-1/2 -left-16 rounded-md dark:bg-dark-features bg-light-secondary_feat opacity-70 z-10 -translate-y-2/4 self-end sm:ml-52'>
                     <h6 className='bg-transparent dark:text-dark-text text-light-text dark:font-medium font-semibold ml-3'>Skills</h6>

@@ -18,7 +18,7 @@ const ProjectsItem = (props) => {
         </div>
         <div className='bg-transparent mt-[30px]  hidden group-hover:block'>
             <button className="border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 hover:bg-purple-950 hover:text-teal-400 text-light-title dark:text-dark-text">
-                <Link href={liveUrl}>Launch</Link>
+                <Link href={liveUrl} target='_blank' rel="noopener noreferrer">Launch</Link>
             </button>
         </div>
     </div>
