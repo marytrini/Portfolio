@@ -1,9 +1,6 @@
 'use client'
 import React from 'react';
 
-const backendURL = process.env.BACKEND_URL;
-const local = process.env.BACKEND_LOCAL_URL;
-
 const FileDownloader = ({ cvEnglish }) => {
   const handleDownload = async () => {
     try {
