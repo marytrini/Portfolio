@@ -6,6 +6,10 @@ const INITIAL_STATE = {
   email: '',
   message: '',
 };
+const {RENDER_BCKND_URL, SELFHOST_BCKND_URL} = process.env;
+const backend_url = RENDER_BCKND_URL;
+// const backend_url = SELFHOST_BCKND_URL;
+
 
 const Form = () => {
   const [loading, setLoading] = useState(false);
@@ -22,7 +26,7 @@ const Form = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('https://maria.back.rammerbot.com/contact', {
+      const res = await fetch(backend_url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(input),
