@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import {SectionSubtitle} from './SectionSubtitle'
 import Image from 'next/image'
-
+import FileDownloader from '../downloadPdf/FileDownloader'
 
 function About() {
   return (<section id="about" className='mb-20'>
@@ -41,7 +41,7 @@ function About() {
                 <div className='mt-5 ml-2'>
                     <button className='border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 dark:hover:bg-purple-950 hover:bg-light-secondary_feat dark:hover:text-teal-400 hover:text-purple-950'><Link href='#projects'>My Projects</Link></button>
                    
-                   <button className='ml-4 underline decoration-dark-title text-dark-title font-semibold dark:hover:text-teal-400 hover:text-purple-950 dark:hover:decoration-teal-400 hover:decoration-purple-950'><Link href='public\cv\CV-english-Mary.pdf' download>Dowload CV</Link></button>
+                   <FileDownloader cvEnglish="CV.Mary-eng.pdf"/>
                 </div>
             </div>
             <div className="lg:col-span-1"> {/*__col_div__images__ */}
