@@ -13,7 +13,7 @@ const Form = () => {
   const [input, setInput] = useState(INITIAL_STATE);
   const [submissionStatus, setSubmissionStatus] = useState('');
 
-    const handleSubmit = async (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     if (!input.name || !input.email || !input.message) {
@@ -23,7 +23,7 @@ const Form = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('https://backend-portfolio-api.onrender.com/contact', {
+      const res = await fetch('https://maria.back.rammerbot.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(input),
