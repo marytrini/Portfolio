@@ -45,7 +45,7 @@ const Contact = () => {
                         <span>
                         <i className="ri-phone-fill text-xl p-[5px] rounded-md dark:bg-dark-features bg-light-secondary_feat dark:text-teal-400 text-light-title"></i>
                         </span>
-                        <p className='mb-0'>+584148013873</p>
+                        <p className='mb-0'>+584249207625</p>
                     </li>
                 </ul>
                 <div className='flex items-center gap-x-11 mb-5 ml-5 mt-[30px] dark:text-teal-400 text-light-title text-xl cursor-pointer justify-start'>{/*social network*/}

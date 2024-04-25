@@ -19,7 +19,7 @@ function Header({ navLinks }) {
         <NavBar navLinks={navLinks} />
         <div>
           <p className='flex items-center gap-2 mb-0'>
-            | <i className='ri-phone-line'></i> +584148013873
+            | <i className='ri-phone-line'></i> +584249207625
           </p>
         </div>
         <DarkModeButton/>
