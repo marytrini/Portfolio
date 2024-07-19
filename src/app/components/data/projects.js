@@ -14,6 +14,7 @@ const projects = [
       "CSS module",
     ],
     liveUrl: "https://countries.rammerbot.com",
+    GitHub_respository: "https://github.com/marytrini/Countries_PI_Front",
   },
   {
     id: "02",
@@ -30,14 +31,25 @@ const projects = [
       "API REST",
     ],
     liveUrl: "https://github.com/marytrini/MedConnect_Back",
+    GitHub_respository: "",
   },
   {
     id: "03",
     title: "Movies",
-    img: "/images/movies.png",
+    img: "/images/moviesApp.png",
     category: "Frontend",
-    keyword: ["React", "Vite", "Tailwindcss"],
+    keyword: ["React", "Vite", "Tailwindcss", "responsive"],
     liveUrl: "https://movies-ght7.onrender.com",
+    GitHub_respository: "https://github.com/marytrini/Movies",
+  },
+  {
+    id: "04",
+    title: "Notes App",
+    img: "/images/notesApp.jpg",
+    category: "Full Stack",
+    keyword: ["React", "Tailwindcss", "Node", "Express", "Postgres"],
+    liveUrl: "https://notes-ch4btgjrv-marytrinis-projects.vercel.app/",
+    GitHub_respository: "https://github.com/marytrini/challenge",
   },
 ];
 

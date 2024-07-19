@@ -65,7 +65,7 @@ function About() {
                 <Link href="#projects">My Projects</Link>
               </button>
 
-              <FileDownloader cvEnglish="Maria Salazar CV - fullstack developer..pdf" />
+              <FileDownloader cvEnglish="Maria Salazar CV. FullStack Developer.eng.pdf" />
             </div>
           </div>
           <div className="lg:col-span-1">

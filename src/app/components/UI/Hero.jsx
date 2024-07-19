@@ -23,7 +23,7 @@ function Hero() {
             <button className="border-2 border-solid border-rose-500 rounded-lg mr-4 font-semibold p-1 dark:hover:bg-purple-950 hover:bg-light-secondary_feat dark:hover:text-teal-400 hover:text-purple-950">
               <Link href="#">Hire me!</Link>
             </button>
-            <FileDownloader cvEnglish="Maria Salazar CV - Fullstack Developer.english.pdf" />
+            <FileDownloader cvEnglish="Maria Salazar CV - Full Stack Developer-.pdf" />
           </div>
         </div>
         {/*__________________image__________________ */}
