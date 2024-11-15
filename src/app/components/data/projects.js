@@ -51,6 +51,15 @@ const projects = [
     liveUrl: "https://notes-ch4btgjrv-marytrinis-projects.vercel.app/",
     GitHub_respository: "https://github.com/marytrini/challenge",
   },
+  {
+    id: "05",
+    title: "Recommendations",
+    img: "/images/recommendations.png",
+    category: "Frontend",
+    keyword: ["React","Vite", "Tailwindcss", "Node"],
+    liveUrl: "https://recommendations-f4re.onrender.com/",
+    GitHub_respository: "https://github.com/marytrini/Recommendations",
+  },
 ];
 
 export default projects;
